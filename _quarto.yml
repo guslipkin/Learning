@@ -1,0 +1,19 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Learning"
+  author: "Gus Lipkin"
+  repo-url: https://github.com/guslipkin/Learning
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+
